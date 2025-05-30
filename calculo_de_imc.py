@@ -1,8 +1,8 @@
 nome = input("Digite seu nome: ")
 alt = float(input("Digite sua altura: "))
-kg = float(input("Digite seu peso: "))
+peso = float(input("Digite seu peso: "))
 
-IMC = kg / (alt*alt)
+IMC = peso / (alt*alt)
 
 if IMC <= 18.4:
     print("Você está abaixo do peso !")
